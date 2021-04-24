@@ -12,8 +12,6 @@ GlassWalls is a platform that helps home finders make an informed decision on th
 
 !["Screenshot of Review Form"](https://github.com/brodybayley/final-project/blob/master/docs/Screenshot%202021-04-23%20112506.png)
 
-!["Screenshot of Favoruites"](https://github.com/brodybayley/final-project/blob/master/docs/Screenshot%202021-04-23%20112451.png)
-
 
 # Running the project
 
