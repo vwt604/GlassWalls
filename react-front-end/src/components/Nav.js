@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
+import Image from 'react-bootstrap/Image'
 import logo from "../assets/logo_transparent.png";
 import avatarimg from "../assets/1.jpg";
 import Avatar from "@material-ui/core/Avatar";
@@ -32,7 +33,9 @@ export default function Nav() {
   return (
     <nav>
       <div className="logo">
-        <img className="logo-img" src={logo} alt={logo} />
+        <a href="/">
+          <Image className="logo-img" src={logo} alt={logo}/>
+        </a>
       </div>
       <ul className="nav-links">
         <Link className={classes.navList} to="/">
