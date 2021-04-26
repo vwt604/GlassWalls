@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 module.exports = (db) => {
-  //Get all buildings
+  // Gets all buildings
   const userId = 1;
 
   router.get("/", (req, res) => {
@@ -65,7 +65,7 @@ module.exports = (db) => {
       });
   });
 
-  //add or delete a favourite
+  // Add or delete a favourite
   router.post("/favourite/:buildingId", (req, res) => {
     const buildingId = req.params.buildingId;
 

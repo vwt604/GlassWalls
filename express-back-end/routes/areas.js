@@ -29,7 +29,7 @@ module.exports = (db) => {
       });
   });
 
-  //route to get all buildings in an area
+  //Gets all buildings in an area
   router.get("/area/:areaId", (req, res) => {
     const areaName = req.body.name;
     console.log("area:", req.body);

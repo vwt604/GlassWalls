@@ -4,7 +4,6 @@ const router  = express.Router();
 module.exports = (db) => {
   //Get all amenities in an area
   router.get("/amenities", (req, res) => {
-    // const areaID = req.params.area_id;
     const areaID = 1;
 
     db.query(

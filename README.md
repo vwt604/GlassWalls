@@ -1,6 +1,6 @@
 # GlassWalls
 
-GlassWalls is a platform that helps home finders make an informed decision on their next move. A user can browse and create reviews for apartments and neighbourhoods, review metrics such as property ratings and landlord approval rates, and save properties to their favourites list. An interactive choropleth map helps identify highly rated neighbourhoods and has options to filter properties by their rating. 
+GlassWalls helps home finders make an informed decision on their next move. Users can browse and create reviews for apartments and neighbourhoods, review metrics such as property ratings and landlord approval rates, and save properties to their favourites list. An interactive choropleth map helps identify highly rated neighbourhoods and marks properties by rating. 
 
 # Final Product 
 

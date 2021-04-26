@@ -14,7 +14,7 @@ module.exports = (db) => {
       })
   });
 
-  // Gets all reviews for a specific building
+  // Gets last 10 reviews for a specific building
   router.get("/api/reviews/:building_id", (req, res) => {
     const params = [req.params.building_id]
     // const query = `SELECT * FROM reviews WHERE building_id = $1`;
@@ -124,10 +124,3 @@ module.exports = (db) => {
 
   return router;
 };
-
-// SELECT reviews.id AS review_id, reviews.user_id AS user_id, reviews.area_id AS area_id, reviews.building_id AS building_id, reviews.title AS title, reviews.building_rating AS building_rating, reviews.comment AS comment, reviews.landlord_rating AS landlord_rating, reviews.recommend_to_friend AS recommend_to_friend, users.username AS username
-//     FROM users
-//     JOIN reviews ON users.id = reviews.user_id
-//     WHERE building_id = 6
-//     ORDER BY reviews.id DESC
-//     LIMIT 10
