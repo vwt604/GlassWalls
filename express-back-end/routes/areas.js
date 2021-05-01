@@ -14,7 +14,6 @@ module.exports = (db) => {
   //Get a specific area
   router.get("/areas/:id", (req, res) => {
     const areaID = 1;
-
     db.query(
       `
       SELECT * 

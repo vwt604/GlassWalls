@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image'
 import logo from "../assets/logo_transparent.png";
-import avatarimg from "../assets/1.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import { deepPurple } from '@material-ui/core/colors';
 
@@ -49,7 +48,7 @@ export default function Nav() {
         </Link>
       </ul>
       <Avatar className={classes.avatar}>V</Avatar>
-      <p className={classes.navName}>Vanessa Yeung</p>
+      <p className={classes.navName}>Vanessa</p>
     </nav>
   );
 }

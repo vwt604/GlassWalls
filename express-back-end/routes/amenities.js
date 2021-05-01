@@ -5,7 +5,6 @@ module.exports = (db) => {
   //Get all amenities in an area
   router.get("/amenities", (req, res) => {
     const areaID = 1;
-
     db.query(
       `
       SELECT *
@@ -24,7 +23,6 @@ module.exports = (db) => {
   //Get a specific amenity
   router.get("/amenities/:id", (req, res) => {
     const amenityID = req.params.id;
-
     db.query(
       `
       SELECT * 
