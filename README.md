@@ -36,6 +36,6 @@ In the other terminal, `cd` into `express-back-end`. Run `npm install` or `yarn`
 
 This app was created by:
 
-* Brody Baley https://github.com/brodybayley
+* Brody Bayley https://github.com/brodybayley
 * Neil Oribello https://github.com/neoribello
 * Vanessa Yeung https://github.com/vwt604
