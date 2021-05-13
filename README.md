@@ -26,8 +26,7 @@ In the other terminal, `cd` into `express-back-end`. Run `npm install` or `yarn`
 
 * Node.js
 * Express
-* React JS
-* React Router
+* React
 * PostgreSQL
 * Leaflet JS
 * Material UI
