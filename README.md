@@ -26,45 +26,15 @@ In the other terminal, `cd` into `express-back-end`. Run `npm install` or `yarn`
 
 * Node.js
 * Express
-* React JS
-* React Router
+* React
 * PostgreSQL
 * Leaflet JS
 * Material UI
-
-
-# Dependencies
-
-**Backend**
-* body-parser: ^1.18.3,
-* cors: ^2.8.5,
-* dotenv: ^8.2.0,
-* express: ^4.16.4,
-* nodemon: ^1.18.7,
-* pg: ^8.5.1,
-* pg-native: ^3.0.0
-
-**Frontend**
-* @material-ui/core: ^4.11.3,
-* @material-ui/icons: ^4.11.2,
-* @material-ui/lab: ^4.0.0-alpha.57,
-* axios: ^0.18.1,
-* leaflet: ^1.7.1,
-* leaflet-control-geocoder: ^2.2.0,
-* node-sass: ^5.0.0,
-* react: ^16.14.0,
-* react-circular-progressbar: ^2.0.4,
-* react-dom: ^16.14.0,
-* react-leaflet: ^3.1.0,
-* react-router-dom: ^5.2.0,
-* react-scripts: 2.1.8,
-* swr: ^0.5.5
-
 
 # Contributions
 
 This app was created by:
 
-* https://github.com/brodybayley
-* https://github.com/neoribello
-* https://github.com/vwt604
+* Brody Bayley https://github.com/brodybayley
+* Neil Oribello https://github.com/neoribello
+* Vanessa Yeung https://github.com/vwt604
