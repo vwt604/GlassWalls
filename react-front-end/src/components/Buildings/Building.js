@@ -11,7 +11,7 @@ import StarIcon from "@material-ui/icons/Star";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-//component to render a building
+// Renders a building
 const Building = () => {
   const [building, setBuilding] = useState([]);
 
